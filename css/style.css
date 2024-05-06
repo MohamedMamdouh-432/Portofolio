@@ -1,0 +1,266 @@
+/* 
+    fonts:
+        font-family: "Poetsen One", sans-serif;
+        font-family: "Pacifico", cursive; 
+*/
+
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.header-list {
+    color: white;
+    background-color: #333;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.header-list-item {
+    float: right;
+}
+
+.header-title {
+    font-size: 45px;
+    display: inline;
+}
+
+.header-list-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+}
+
+.header-list-item a:hover {
+    background-color: black;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+}
+
+.Portofolio-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}
+
+.about-me {
+    font-size: 20px;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.left {
+    width: 30%;
+    float: left;
+    font-size: 25px;
+}
+
+.right {
+    width: 70%;
+    float: right;
+}
+
+.row {
+    padding: 5px;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.main-bar {
+    background-color: gray;
+    height: 30px;
+    display: block;
+}
+
+.main-bar span {
+    background-color: teal;
+    height: 30px;
+    display: block;
+    color: white;
+}
+
+.colored-bar-1 {
+    width: 90%;
+    font-size: 20px;
+    animation: colored-bar-1-animation 2s;
+}
+
+.colored-bar-2 {
+    width: 70%;
+    font-size: 20px;
+    animation: colored-bar-2-animation 2s;
+}
+
+.colored-bar-3 {
+    width: 88%;
+    font-size: 20px;
+    animation: colored-bar-3-animation 2s;
+}
+
+.colored-bar-4 {
+    width: 60%;
+    font-size: 20px;
+    animation: colored-bar-4-animation 2s;
+}
+
+.colored-bar-5 {
+    width: 95%;
+    font-size: 20px;
+    animation: colored-bar-5-animation 2s;
+}
+
+.colored-bar-6 {
+    width: 78%;
+    font-size: 20px;
+    animation: colored-bar-6-animation 2s;
+}
+
+.colored-bar-7 {
+    width: 93%;
+    font-size: 20px;
+    animation: colored-bar-7-animation 2s;
+}
+
+.colored-bar-8 {
+    width: 40%;
+    font-size: 20px;
+    animation: colored-bar-8-animation 2s;
+}
+
+.colored-bar-9 {
+    width: 82%;
+    font-size: 20px;
+    animation: colored-bar-9-animation 2s;
+}
+
+.colored-bar-10 {
+    width: 90%;
+    font-size: 20px;
+    animation: colored-bar-10-animation 2s;
+}
+
+@keyframes colored-bar-1-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes colored-bar-2-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes colored-bar-3-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 88%;
+    }
+}
+@keyframes colored-bar-4-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+@keyframes colored-bar-5-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+@keyframes colored-bar-6-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 78%;
+    }
+}
+@keyframes colored-bar-7-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 93%;
+    }
+}
+@keyframes colored-bar-8-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 40%;
+    }
+}
+@keyframes colored-bar-9-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 82%;
+    }
+}
+@keyframes colored-bar-10-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+.footer {
+    text-align: center;
+    font-size: 25px;
+    background-color: #333;
+    color: white;
+}
+
+.footer p {
+    padding: 10px 0 10px 0;
+    font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+    }
+}
+
+img:hover {
+    cursor: pointer;
+}
