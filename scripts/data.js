@@ -8,7 +8,7 @@ const projectsList = [
     },
     {
         title: "Talk2Statue",
-        img_path: "./images/talk2statue.png",
+        img_path: "./images/dark-logo.jpeg",
         description:
             "Tourism Application Which be able to bring statues to life",
         url: "https://github.com/MohamedMamdouh-432/Talk2Statue",
